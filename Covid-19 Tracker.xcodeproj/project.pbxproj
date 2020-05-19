@@ -15,6 +15,8 @@
 		7AE0577024748CA900BB7A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0576E24748CA900BB7A1F /* LaunchScreen.storyboard */; };
 		7AE0577B24748CAA00BB7A1F /* Covid_19_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0577A24748CAA00BB7A1F /* Covid_19_TrackerTests.swift */; };
 		7AE0578624748CAA00BB7A1F /* Covid_19_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0578524748CAA00BB7A1F /* Covid_19_TrackerUITests.swift */; };
+		7AE0579424748CDF00BB7A1F /* AllCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0579324748CDF00BB7A1F /* AllCountries.swift */; };
+		7AE0579624748CE500BB7A1F /* AllCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0579524748CE500BB7A1F /* AllCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7AE0578124748CAA00BB7A1F /* Covid-19 TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covid-19 TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE0578524748CAA00BB7A1F /* Covid_19_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid_19_TrackerUITests.swift; sourceTree = "<group>"; };
 		7AE0578724748CAA00BB7A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE0579324748CDF00BB7A1F /* AllCountries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCountries.swift; sourceTree = "<group>"; };
+		7AE0579524748CE500BB7A1F /* AllCases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				7AE0576324748C9A00BB7A1F /* AppDelegate.swift */,
 				7AE0576524748C9A00BB7A1F /* SceneDelegate.swift */,
 				7AE0576724748C9A00BB7A1F /* ContentView.swift */,
+				7AE0579524748CE500BB7A1F /* AllCases.swift */,
+				7AE0579324748CDF00BB7A1F /* AllCountries.swift */,
 				7AE0576924748CA900BB7A1F /* Assets.xcassets */,
 				7AE0576E24748CA900BB7A1F /* LaunchScreen.storyboard */,
 				7AE0577124748CA900BB7A1F /* Info.plist */,
@@ -268,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE0576424748C9A00BB7A1F /* AppDelegate.swift in Sources */,
+				7AE0579624748CE500BB7A1F /* AllCases.swift in Sources */,
 				7AE0576624748C9A00BB7A1F /* SceneDelegate.swift in Sources */,
+				7AE0579424748CDF00BB7A1F /* AllCountries.swift in Sources */,
 				7AE0576824748C9A00BB7A1F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

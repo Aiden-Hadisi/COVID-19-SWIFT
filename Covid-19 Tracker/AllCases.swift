@@ -23,8 +23,7 @@ struct AllCases: View {
             Color(red: 133 / 255, green: 198 / 255, blue: 255 / 255).edgesIgnoringSafeArea(.all)
             ScrollView {
             VStack(spacing: 30) {
-                Image("Image").resizable()
-                .frame(width: 100.0, height: 100.0)
+               
                 Text("Cases Worldwide").font(.largeTitle)
                 VStack(spacing: 20) {
                     VStack{
